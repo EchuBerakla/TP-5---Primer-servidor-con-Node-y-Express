@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "c2496b0b-ba34-4df6-ab6d-1fa7ed61d445",
+		"name": "TP5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/hora",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"hora"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fecha",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
